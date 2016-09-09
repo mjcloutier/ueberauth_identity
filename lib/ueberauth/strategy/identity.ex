@@ -33,7 +33,7 @@ defmodule Ueberauth.Strategy.Identity do
       name: param_for(conn, :name_field),
       first_name: param_for(conn, :first_name_field),
       last_name: param_for(conn, :last_name_field),
-      login: param_for(conn, :login),
+      login: param_for(conn, :login_field),
       nickname: param_for(conn, :nickname_field),
       phone: param_for(conn, :phone_field),
       location: param_for(conn, :location_field),
