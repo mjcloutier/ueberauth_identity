@@ -25,7 +25,7 @@ defmodule UeberauthIdentity.Mixfile do
 
   defp deps do
     [
-      {:ueberauth, "~> 0.2"},
+      {:ueberauth, github: "mjcloutier/ueberauth"},
       {:plug, "~> 1.0"},
 
       # docs dependencies
